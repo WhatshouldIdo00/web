@@ -4,22 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
     <link rel="stylesheet" href="c.css">
+    <script src="https://kit.fontawesome.com/a2c653daa5.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="container">
   <nav class="nav1">
-     <div class="logo">StudyHub</div>
+    <div class="logo">
+       <div class="logo-image">
+           <img src="11.jpg" alt="Logo">
+       </div>
+       <div class="logo1">
+          <a href="hcss.html">StudyHub</a> 
+       </div>
+    </div>
      <ul>
-        <li><a href="hcss.html">Home</a></li>
-        <li><a href="" >About</a></li>
-        <li><a href="">Upload notes</a></li>
-        <li><a href="">Contact</a></li>
+        <li class="new"><a href="hcss.html">Home</a></li>
+        <li class="new"><a href="#about" >About</a></li>
+        <li class="new"><a href="#services">Start</a></li>
+        <li class="new"><a href="">Contact</a></li>
         <input type="text" name="" placeholder="Search" class="search1">
      </ul>
   </nav>
-  <div class="box1">
-      <h1 style="color: #fff;">About us</h1>
+  <!-- .............home............... -->
+  <div class="main-box">
+    <div class="box">
+     <h2>WELCOME TO <span>STUDYHUB</span></h2>
+    </div>
+    <div class="box1">
+        <p >Your one-stop solution for organizing study resources.</p>  
+    </div>
   </div>
+</div>
+<!-- ...................about................... -->
+<section id="about" class="about-section">
+  <div class="about-container">
+      <div class="about-content">
+          <h2>About StudyHub</h2>
+          <p>StudyHub is an online platform designed to help students organize and share their study resources. Whether you're looking for notes, study guides, or simply a place to collaborate, StudyHub is here to streamline your study experience.We aim to make learning simple and organized for everyone</p>
+      </div>
+      <div class="about-columns">
+          <div class="about-column">
+              <h3>Our Mission</h3>
+              <p>Our mission is to provide a user-friendly, collaborative space where students can easily upload, share, and access educational resources to enhance their learning experience.</p>
+          </div>
+          <div class="about-column">
+              <h3>Key Features</h3>
+              <ul>
+                  <li><i class="fas fa-upload"></i> Easy Note Uploading</li>
+                  <li><i class="fas fa-users"></i> Collaboration Opportunities</li>
+                  <li><i class="fas fa-search"></i> Efficient Search Functionality</li>
+                  <li><i class="fas fa-laptop-code"></i> User-Friendly Interface</li>
+              </ul>
+          </div>
+          <div class="about-column">
+              <h3>Meet the Developers</h3>
+              <p>This platform has been developed by a team of passionate computer science students—Anjana, Vaishnav, Liya, Hima, and Isha. Together, we are dedicated to building user-friendly and impactful solutions that enhance the educational experience."</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------services------------------ -->
+  <section id="services">
+    <h2>Your Study Dashboard</h2>
+    <div class="boxs">
+      <div class="service-box" onclick="window.location.href='chat.html'">
+        <div class="icon"><i class="fas fa-comments"></i></div>
+        <h3>Chat Service</h3>
+      </div>
+      <div class="service-box" onclick="window.location.href='todo/todo.html'">
+        <div class="icon"><i class="fas fa-tasks"></i></div>
+        <h3>To-Do List</h3>
+      </div>
+      <div class="service-box" onclick="window.location.href='tracker.html'">
+        <div class="icon"><i class="fas fa-chart-line"></i></div>
+        <h3>Progress Tracker</h3>
+      </div>
+      <div class="service-box" onclick="window.location.href='notes.html'">
+        <div class="icon"><i class="fas fa-file-alt"></i></div>
+        <h3>Notes</h3>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------contact------------------ -->
+  <div class="contact">
+
+  </div>
+  <!-- ...................footer.................. -->
+  <footer>
+    <div class="footer1">
+      <ul>
+        <li class="icons-f">
+             <a href=""><i class="fa-brands fa-github"></i></a>
+        </li>
+        <li class="icons-f">
+             <a href=""> <i class="fa-brands fa-discord"></i></a>
+        </li>
+        <li class="icons-f">
+             <a href="hcss.html"> <i class="fa-solid fa-house"></i></a>
+        </li>
+      </ul>
+    </div>
+      <p style="color: aliceblue;" class="copy-right">
+        &copy;All rights reserved to StudyHub limited
+      </p>
+  </footer>
 </body>
 </html>
